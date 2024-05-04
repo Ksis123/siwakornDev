@@ -123,7 +123,7 @@ const AboutMe = ({ darkMode }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Dowload CV
+                  Download Resume
                 </a>
 
                 <Link
