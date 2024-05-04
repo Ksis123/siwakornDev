@@ -45,11 +45,13 @@ const Project = ({ darkMode }) => {
               darkMode ? "bg-[#2a24215f] backdrop-blur-[0.65rem] " : ""
             }`}
           >
-            <img
-              className="w-full p-2 rounded-t-[30px]"
-              src={impatient}
-              alt="impatient"
-            />
+            <a href="https://github.com/sut65/team12.git">
+              <img
+                className="w-full p-2 rounded-t-[30px]"
+                src={impatient}
+                alt="impatient"
+              />
+            </a>
             <div className="px-6 py-4">
               <div
                 className={`font-bold text-xl mb-2 ${
@@ -121,11 +123,13 @@ const Project = ({ darkMode }) => {
               darkMode ? "bg-[#2a24215f] backdrop-blur-[0.65rem] " : ""
             }`}
           >
-            <img
-              className="w-full object-cover p-2 rounded-t-[30px]"
-              src={fyt}
-              alt="Fideyourtracks"
-            />
+            <a href="https://github.com/Ksis123/Fideyourtracks.git">
+              <img
+                className="w-full object-cover p-2 rounded-t-[30px]"
+                src={fyt}
+                alt="Fideyourtracks"
+              />
+            </a>
             <div className="px-6 py-4">
               <div
                 className={`font-bold text-xl mb-2 ${
@@ -196,11 +200,14 @@ const Project = ({ darkMode }) => {
               darkMode ? "bg-[#2a24215f] backdrop-blur-[0.65rem] " : ""
             }`}
           >
-            <img
-              className="w-full p-2 rounded-t-[30px]"
-              src={shoe}
-              alt="Sunset in the mountains"
-            />
+            <a href="https://github.com/Ksis123/Sports-Shoes-E-commerce.git">
+              <img
+                className="w-full p-2 rounded-t-[30px]"
+                src={shoe}
+                alt="Sunset in the mountains"
+              />
+            </a>
+
             <div className="px-6 py-4">
               <div
                 className={`font-bold text-xl mb-2 ${
@@ -354,11 +361,13 @@ const Project = ({ darkMode }) => {
                 : "bg-[#ffffff5f] backdrop-blur-[0.65rem]"
             }`}
           >
-            <img
-              className="w-full  object-cover p-2 rounded-t-[30px]"
-              src={nft}
-              alt="fytnft"
-            />
+            <a href="https://github.com/Ksis123/fideyourtracks_Marketplace.git">
+              <img
+                className="w-full  object-cover p-2 rounded-t-[30px]"
+                src={nft}
+                alt="fytnft"
+              />
+            </a>
             <div className="px-6 py-4">
               <div
                 className={`font-bold text-xl mb-2 ${
