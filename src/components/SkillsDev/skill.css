@@ -1,0 +1,53 @@
+/* Skill */
+.skill {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+
+.skill::before {
+    content: '';
+    position: absolute;
+    inset: -12px 8px;
+    background: linear-gradient(315deg, #e68a5d, #ff6464);
+    transform: rotate(-45deg);
+    transition: 0.5s;
+
+}
+
+.skill:hover::before {
+    inset: -12px 4px;
+    animation: animate2 2s linear infinite;
+
+}
+
+@keyframes animate2 {
+    from {
+        transform: rotate(-45deg);
+    }
+
+    to {
+        transform: rotate(315deg);
+
+    }
+}
+
+.skill::after {
+    content: '';
+    position: absolute;
+    inset: 1.5px;
+    background: inherit;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+/* .skill:hover .content img{
+    opacity: 0;
+}
+
+.content h2 {
+    position: relative;
+    font-size: 0.2em;
+} */

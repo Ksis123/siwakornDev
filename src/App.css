@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+/* Button */
+.delete-btn {
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+    height: 43px;
+    width: 83px;
+    color: #f0f8ff;
+    box-shadow: 0px 2px 15px -6px #000000;
+    transition: 0.3s ease-in-out;
+    background-image: linear-gradient(#C42D2D, #CD4F4F);
+    border-radius: 30px;
+    border: 2px solid #C42D2D !important;
+    margin-right: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.delete-btn:hover {
+    font-size: 19px;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    color: #C42D2D;
+    box-shadow: 0px 2px 15px -6px #000000;
+    transition: 0.3s ease-in-out;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    border: 2px solid #C42D2D !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.edit-btn {
+    transition: 0.5s ease-in-out;
+    height: 43px;
+    width: 103px;
+    transition: 0.3s ease-in-out;
+    border-radius: 30px;
+    border: 2px solid #000000 !important;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.edit-btn:hover {
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #000000 !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Menu */
