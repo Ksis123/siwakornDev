@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import filetranscript from "../../static/media/Transcript.pdf";
-import resume from "../../static/media/Siwakorn_Resume.pdf"
+import resume from "../../static/media/Siwakorn_Resume.pdf";
 
 const AboutMe = ({ darkMode }) => {
   const [activeTab, setActiveTab] = useState("Introduction");
@@ -189,7 +189,7 @@ const AboutMe = ({ darkMode }) => {
                     </dt>
                     <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       <span className="flex gap-2">
-                        Thoeng, Chiang Rai, Thailand
+                        Khun Tan, Chiang Rai 
                         <svg
                           width="800px"
                           height="800px"
