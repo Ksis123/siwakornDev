@@ -17,7 +17,7 @@ const Sidebar = ({ darkMode }) => {
         }`}
     >
       <div
-        className={`rounded-t-[25px] h-[40px] sm:h-[20px] lg:h-20 text-sm md:text-md xl:text-lg shadow-xl  ${
+        className={`rounded-t-[25px] h-1/6 sm:h-3-6 lg:h-20 text-sm md:text-md xl:text-lg shadow-xl  ${
           darkMode ? "bg-[#ff9661]" : "bg-[#ff9661]"
         }`}
       >

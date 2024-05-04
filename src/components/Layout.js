@@ -39,6 +39,7 @@ const Layout = ({ children }) => {
           {React.cloneElement(children, { darkMode: darkMode })}
         </main>
         
+
       </header>
       <div className="p-3 px-20">
         <Footer />

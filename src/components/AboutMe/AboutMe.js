@@ -118,7 +118,7 @@ const AboutMe = ({ darkMode }) => {
               </p>
               <div className="flex w-full items-center justify-center gap-4">
                 <a
-                  className="text-white rounded-full bg-light-primary shadow-lg hover:bg-orange-500 transition-all duration-300 w-fit px-5 py-3 font-medium "
+                  className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full bg-light-primary shadow-lg hover:bg-orange-500 transition-all duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium "
                   href={resume}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -128,7 +128,7 @@ const AboutMe = ({ darkMode }) => {
 
                 <Link
                   to="/projects"
-                  className="animate-bounce rounded-full border-2 border-orange-400 shadow-lg hover:bg-orange-500 transition-all duration-300 font-medium w-fit px-5 py-3"
+                  className="animate-bounce text-center text-[12px] sm:text-md md:text-base rounded-full border-2 border-orange-400 shadow-lg hover:bg-orange-500 transition-all duration-300 font-medium w-fit px-5 py-1 sm:px-5 sm:py-3"
                 >
                   My Portfolio
                 </Link>

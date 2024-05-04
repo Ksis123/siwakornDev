@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <div className="  flex flex-col items-center justify-between pt-2 xl:flex-row opacity-[0.7]">
-      <h5 className="mb-4 text-center text-sm  sm:!mb-0 md:text-lg">
-        <p className="mb-4 text-center text-sm sm:!mb-0 md:text-base">
+    <div className=" flex flex-col  items-center justify-between pt-2 xl:flex-row opacity-[0.7]">
+      <h5 className=" text-center text-sm  sm:!mb-0 md:text-lg">
+        <p className=" text-center text-sm sm:!mb-0 md:text-base">
           © {new Date().getFullYear()} SiwakornDev.
         </p>
       </h5>
