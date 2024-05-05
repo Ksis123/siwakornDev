@@ -62,7 +62,7 @@ const Project = ({ darkMode }) => {
               </div>
               <p className="text-base sm:text-sm xl:text-base">
                 Software Engineering Project: The hospital has given my team a
-                requirement, My team and I have developed a Golang Gin REST API
+                requirement, My team and I have developed a Golang Gin RESTful APIs
                 to control the transfer of data to a Typescript-powered React
                 interface.
               </p>
@@ -141,7 +141,7 @@ const Project = ({ darkMode }) => {
               <p className="text-base sm:text-sm xl:text-base">
                 My Music Player: Web Application project, I improved my express.js and
                 React skills to make my own music player for this project. by by
-                developing a REST API and applying Redux toolkit for state
+                developing RESTful APIs and applying Redux toolkit for state
                 management.
               </p>
             </div>
