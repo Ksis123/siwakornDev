@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
-    <div className=" flex flex-col  items-center justify-between pt-2 xl:flex-row opacity-[0.7]">
+    <div className="visible  xl:invisible flex flex-col  items-center xl:justify-center justify-between pt-2 xl:flex-row opacity-[0.7]">
       <h5 className=" text-center text-sm  sm:!mb-0 md:text-lg">
         <p className=" text-center text-sm sm:!mb-0 md:text-base">
           © {new Date().getFullYear()} SiwakornDev.
         </p>
       </h5>
       <div>
-        <ul className="flex flex-wrap items-center gap-3 sm:flex-nowrap md:gap-10">
+        <ul className="  flex flex-wrap items-center gap-3 sm:flex-nowrap md:gap-10">
           <li>
             <a
               target="blank"
