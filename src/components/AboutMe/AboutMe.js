@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import filetranscript from "../../static/media/Transcript.pdf";
-import resume from "../../static/media/Siwakorn_Resume.pdf";
+import resume from "../../static/media/Resume_Siwakorn_0657313223.pdf";
 
 const AboutMe = ({ darkMode }) => {
   const [activeTab, setActiveTab] = useState("Introduction");

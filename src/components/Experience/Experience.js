@@ -1,5 +1,5 @@
 import React from "react";
-import certifies from "../../static/media/Siwakorn Kaewmala _Internship Certification.pdf"
+import certifies from "../../static/media/Internship_Certification_Siwakorn.pdf"
 const Experience = () => {
   return (
     <div className="justify-center">
