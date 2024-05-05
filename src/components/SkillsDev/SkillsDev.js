@@ -544,7 +544,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="MongoDB"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                8 Month
+                4 Month
                 </h2>
               </div>
             </div>
