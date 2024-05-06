@@ -3,10 +3,30 @@
 
 @tailwind utilities;
 
+
 @font-face {
     font-family: 'Nunito';
-    src: url('./fonts/Nunito/static/Nunito-Medium.ttf') format('woff2'),
-        url('./fonts/Nunito/Nunito-VariableFont_wght.ttf') format('woff');
+    src: url('./fonts/Nunito/static/Nunito-Medium.ttf');
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-alternates: normal;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-variant-position: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 100%;
+    line-height: 150%;
+}
+
+@font-face {
+    font-family: "noto Sans Thai";
+    src: url('./fonts//Noto_Sans_Thai/static/NotoSansThai-Medium.ttf');
     font-style: normal;
     font-variant-caps: normal;
     font-variant-ligatures: normal;
@@ -25,9 +45,10 @@
 }
 
 body {
-    font-family: 'Nunito';
+    font-family: 'Nunito', noto Sans Thai;
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
-
 header>main {
     margin: 1.4rem 0.3rem 1.4rem 0;
     scrollbar-color: #e68a5d rgba(255, 255, 255, 0);
@@ -84,11 +105,7 @@ header .navbar {
     position: relative;
 }
 
-body {
-    font-family: 'Nunito', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-color);
-}
+
 
 /*Start Animations*/
 @-webkit-keyframes animatetop {

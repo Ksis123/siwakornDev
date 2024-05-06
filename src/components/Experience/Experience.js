@@ -1,10 +1,16 @@
 import React from "react";
-import certifies from "../../static/media/Internship_Certification_Siwakorn.pdf"
-const Experience = () => {
+import { useTranslation } from "react-i18next";
+
+import certifies from "../../static/media/Internship_Certification_Siwakorn.pdf";
+const Experience = (changeLanguage) => {
+  const { t } = useTranslation();
+
   return (
     <div className="justify-center">
       <div class="px-4 sm:px-6">
-      <h3 className="text-lg md:text-xl lg:text-2xl leading-4 font-bold ">Work Experience</h3>
+        <h3 className="text-lg md:text-xl lg:text-2xl leading-4 font-bold ">
+          {t("exp_title")}
+        </h3>
       </div>
       <div className="mx-1 mt-3 mb-6 lg:mx-8 ">
         <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
@@ -24,27 +30,24 @@ const Experience = () => {
             </div>
             <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)]  p-4 rounded border  shadow">
               <div class="flex items-center justify-between space-x-2 mb-1">
-                <div class="font-bold text-light-primary">
-                  Cooperative Operation
-                </div>
+                <div class="font-bold text-light-primary">{t("exp1")}</div>
                 <time class="font-medium text-sm lg:text-base text-gray-400">
-                  Nov 2023 - Feb 2024
+                  {t("exp_time1")}
                 </time>
               </div>
               <div class="opacity-80">
-                The Siam Cement (Thung Song) Co. Ltd, <br />
-                Nakhon Si Thammarat, Thailand
+                {t("company1")} <br />
+                {t("lo1")}
                 <hr /> <br />
-                Full Stack Developer Cooperative Organization Team to produced
-                Human Resource Management System. <br/>
+                {t("des1")} <br />
                 <a
-                    className="px-2 rounded-[10px] w-1/2 border-2 sm:w-[100px] justify-center bg-light-primary duration-500 hover:border-dark-primary hover:bg-[#ffffff2f] hover:text-dark-secondary"
-                    href={certifies}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i class="fa-solid fa-file-pdf"></i> Cooperative
-                  </a>
+                  className="px-2 rounded-[10px] w-1/2 border-2 sm:w-[100px] justify-center bg-light-primary duration-500 hover:border-dark-primary hover:bg-[#ffffff2f] hover:text-dark-secondary"
+                  href={certifies}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fa-solid fa-file-pdf"></i> Cooperative
+                </a>
               </div>
             </div>
           </div>
@@ -65,21 +68,18 @@ const Experience = () => {
             </div>
             <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)]  p-4 rounded border  shadow">
               <div class="flex items-center justify-between space-x-2 mb-1">
-                <div class="font-bold text-light-primary">
-                  Computer Engineering Students{" "}
-                </div>
+                <div class="font-bold text-light-primary">{t("exp2")}</div>
                 <time class="font-medium text-sm lg:text-base text-gray-400">
-                  Sep 2022 - Feb 2023
+                  {t("exp_time2")}
                 </time>
               </div>
               <div class="opacity-80">
-                Software room F11, Faculty of Computer Engineering Nakhon
-                Ratchasima, Thailand
+                {t("lo2")}
                 <hr /> <br />
-                Front-End Developer Scholarship & Impatient Systems.
+                {t("des2")}
                 <br />
-                Blockchain Mini Project with Soliditty. <br />
-                Artificial Intelligence : basic DeepLearning Workshop
+                {t("des2_1")} <br />
+                {t("des2_2")}
               </div>
             </div>
           </div>
@@ -98,18 +98,15 @@ const Experience = () => {
             </div>
             <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)]  p-4 rounded border  shadow">
               <div class="flex items-center justify-between space-x-2 mb-1">
-                <div class="font-bold text-light-primary">
-                  National Software Contest - NSC Thailand
-                </div>
+                <div class="font-bold text-light-primary">{t("exp3")}</div>
                 <time class="font-medium text-sm lg:text-base text-gray-400">
-                  Oct 2018
+                  {t("exp_time3")}
                 </time>
               </div>
               <div class="opacity-80">
-                Chaimg Mai, Thailand <hr />
+                {t("lo3")} <hr />
                 <br />
-                Participate in the contest, Developed a 2D RPG Game using C# and
-                GameMaker engine.
+                {t("des3")}
               </div>
             </div>
           </div>
@@ -119,3 +116,6 @@ const Experience = () => {
   );
 };
 export default Experience;
+
+
+

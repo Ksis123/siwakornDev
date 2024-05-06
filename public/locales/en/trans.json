@@ -1,0 +1,109 @@
+{  
+  "lang_text": " : ",
+  "lang_en": "ENG",
+  "lang_th": "TH",
+  
+  "sidebar_name": "Siwakorn Kaewmala",
+  "sidebar_position": "Front-End Developer",
+  "menu1": "About me",
+  "menu2": "Skills Dev",
+  "menu3": "Experience",
+  "menu4": "My Portfolio",
+
+  "tabmenu1": "Intro",
+  "tabmenu2": "Profile",
+  "tabmenu3": "Education",
+
+  "title": "Hi Guy, I'm Siwakorn",
+  "subtitle": "Front End Developer",
+  "welcome_message": "Simplicity and user satisfaction are the core of my work. Many of my projects work under the Agile Methodology . I enjoy sharing my Tools Tricks with my teammates. Because I understand the core of CSS, that's why I expert in responsive design, including understanding concept JavaScript , from using framework experiments like React, Next.js, or Vue.js, I have Debugging skills from many project. I have developed basic blockchain and NFT projects.",
+  "welcome_message_final" : "Lastly, if you're in need of a front-end developer, I'm confident in my qualifications, I can collaborate with you to build the webapplication that is most suited for users, Thank you for your time. ",
+  "my_portfolio" : "My Portfolio",
+
+  "skill" : "Skills Developer",
+  "1y" : "1 year",
+  "2y" : "2 year",
+  "3y" : "2 year",
+  "basic" : "Basic",
+  "expert" : "Expert",
+  "2m" : "2 mouth",
+  "4m" : "4 mouth",
+  "6m" : "6 mouth",
+  "8m" : "8 mouth",
+
+  "p_title": "Personal info",
+  "p_detail": "This is some information about me",
+  "p1": "Full name",
+  "p2": "Age",
+  "p3": "Email address",
+  "p4": "Phone number",
+  "p5": "Address",
+  "p6": "Military Status",
+
+  "a1": "Siwakorn Kaewmala (Nickname : Khem)",
+  "a2": " years old",
+  "a5": "Khun Tan, Chiang Rai, Thailand",
+  "a6": "Exempted",
+
+  "y1": "2020 - 2024",
+  "y2": "2017 - 2020",
+  "y3": "2014 - 2017",
+
+  "edu1": "Suranaree University of Technology",
+  "edu2": "Princess Chulabhorn Science High School Chiang Rai",
+  "edu3": "Thoengwittayakhom School",
+
+  "major1": "Institute of Engineering, Bachelor of Engineering (Computer Engineering)",
+  "major2": "Regional Science School Program",
+  "major3": "Science and mathematics Program",
+
+  "province1": "Nakhon Ratchasima, Thailand",
+  "province2": "Chiang Rai, Thailand",
+  "province3": "Chiang Rai, Thailand",
+
+  "someting1": "Second Class Honors with 3.43 GPAX",
+  "someting2": "Graduated with 3.38 GPAX",
+
+
+  "read_more": "Read more",
+  "post": "Post :",
+  "source_code": "Source Code :",
+
+  "exp_title": "Work Experience",
+  "exp1": "Cooperative Operation",
+  "exp2": "Computer Engineering Students",
+  "exp3": "National Software Contest - NSC Thailand",
+  "exp_time1": "Nov 2023 - Feb 2024",
+  "exp_time2": "Sep 2022 - Feb 2023",
+  "exp_time3": "Oct 2018",
+  "company1": "The Siam Cement (Thung Song) Co. Ltd,",
+  "company2": "Software room F11, Faculty of Computer Engineering",
+  "lo1": "Nakhon Si Thammarat, Thailand",
+  "lo2": "Nakhon Ratchasima, Thailand",
+  "lo3": "Chaimg Mai, Thailand",
+  "des1": "Full Stack Developer Cooperative Organization Team to produced Human Resource Management System",
+  "des2": "Front-End Developer Scholarship & Impatient Systems",
+  "des2_1": "Blockchain Mini Project with Soliditty",
+  "des2_2": "Artificial Intelligence : basic DeepLearning Workshop",
+  "des3": "Participate in the contest, Developed a 2D RPG Game using C# and GameMaker engine",
+
+
+  "warming": "cannot be disclosed",
+
+  "port_title": "My Portfolio",
+  "port1": "Inpatient System",
+  "port4": "HRMS : Fairmanpower",
+  "port_time1": "Jan - Feb 2023",
+  "port_time2": "Aug - Oct 2023",
+  "port_time3": "Oct - Nov 2023",
+  "port_time4": "Nov 2023 - Feb 2024",
+  "port_time5": "Oct - Nov 2023",
+  "port_des1": "Software Engineering Project: The hospital has given my team a requirement, My team and I have developed a Golang Gin RESTful APIs to control the transfer of data to a Typescript-powered React interface",
+  "port_des2": "My Music Player: Web Application project, I improved my express.js and React skills to make my own music player for this project. building RESTful APIs and applying Redux toolkit for state management",
+  "port_des3": "Project for Advanced Web Application Course: I developed a basic online sport shoe store using Mongodb, Angular, and Express.js, utilizing MEAN STACK and middleware architecture",
+  "port_des4": "This solution, which is presently available for trial within the company, I attempts to establish an effective workforce management system to ensure accuracy in Management Employee and Payroll",
+  "port_des5": "This Fideyourtracks feature is challenging me to learn Solidity and Ganache in order to code tokens for listings and minting, wallets, and Metamask bidding for listing or purchasing audio NFT on marketplace"
+
+
+
+}

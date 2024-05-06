@@ -1,10 +1,13 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
+
 import profileLight from "../../img/2.jpg";
 import profileDark from "../../img/4.jpg";
 
-const Sidebar = ({ darkMode }) => {
+const Sidebar = ({ changeLanguage, darkMode }) => {
   const location = useLocation();
+  const { t } = useTranslation();
 
   const isActivePath = (path) => {
     return location.pathname === path;
@@ -41,7 +44,7 @@ const Sidebar = ({ darkMode }) => {
               darkMode ? "text-dark-text " : "text-[#f18b47] "
             }`}
           >
-            Siwakorn Kaewmala
+              {t('sidebar_name')}
           </h3>
           <span className="invisible  md:visible md:text-[0.75rem] leading-[1rem] opacity-50 block">
             Front-End Developer <br /> <h6>· UX / UI Designer</h6>
@@ -73,7 +76,8 @@ const Sidebar = ({ darkMode }) => {
                   </svg>
                 </span>
                 <label className="invisible  sm:visible cursor-pointer">
-                  About me
+                {t('menu1')}
+
                 </label>
               </button>
             </Link>
@@ -99,8 +103,8 @@ const Sidebar = ({ darkMode }) => {
                   </svg>
                 </span>
                 <label className="invisible  sm:visible cursor-pointer">
-                  {" "}
-                  Skills Dev
+                  {t('menu2')}
+
                 </label>
               </button>
             </Link>
@@ -126,8 +130,7 @@ const Sidebar = ({ darkMode }) => {
                   </svg>
                 </span>
                 <label className="invisible  sm:visible cursor-pointer">
-                  {" "}
-                  Experience
+                {t('menu3')}
                 </label>
               </button>
             </Link>
@@ -153,8 +156,8 @@ const Sidebar = ({ darkMode }) => {
                   </svg>
                 </span>
                 <label className="invisible  sm:visible cursor-pointer">
-                  {" "}
-                  My Portfolio
+                {t('menu4')}
+
                 </label>
               </button>
             </Link>

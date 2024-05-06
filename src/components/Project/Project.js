@@ -29,12 +29,16 @@ import nft from "../../img/web/Fideyourtracks.gif";
 import shoe from "../../img/web/Shop_shop.gif";
 import impatient from "../../img/web/Impatoent.gif";
 
-const Project = ({ darkMode }) => {
+import { useTranslation } from "react-i18next";
+
+const Project = ({ changeLanguage, darkMode }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="justify-center">
       <div className="px-4  sm:px-6">
         <h3 className="text-lg md:text-xl lg:text-2xl leading-4 font-bold ">
-          My Portfolio
+          {t("port_title")}
         </h3>
       </div>
       <div className="mt-1 mb-6 lg:mx-8 ">
@@ -53,7 +57,7 @@ const Project = ({ darkMode }) => {
                     : "bg-gray-100   text-[#948888] "
                 }`}
               >
-                Jan - Feb 2023
+                {t("port_time1")}
               </div>
               <img
                 className="w-full p-2 rounded-t-[25px]"
@@ -68,14 +72,11 @@ const Project = ({ darkMode }) => {
                   darkMode ? "text-dark-secondary" : "text-[#f17c42]"
                 }`}
               >
-                Inpatient System
+                {t("port1")}
               </div>
 
               <p className="text-base sm:text-sm xl:text-base">
-                Software Engineering Project: The hospital has given my team a
-                requirement, My team and I have developed a Golang Gin RESTful
-                APIs to control the transfer of data to a Typescript-powered
-                React interface.
+                {t("port_des1")}
               </p>
             </div>
             <div className="static sm:static md:static px-6 py-4 inset-x-0 bottom-0">
@@ -142,7 +143,7 @@ const Project = ({ darkMode }) => {
                     : "bg-gray-100   text-[#948888] "
                 }`}
               >
-                Aug - Oct 2023
+                {t("port_time2")}
               </div>
               <img
                 className="w-full object-cover p-2 rounded-t-[25px]"
@@ -159,10 +160,7 @@ const Project = ({ darkMode }) => {
                 Fideyourtracks
               </div>
               <p className="text-base sm:text-sm xl:text-base">
-                My Music Player: Web Application project, I improved my
-                express.js and React skills to make my own music player for this
-                project. by by developing RESTful APIs and applying Redux
-                toolkit for state management.
+                {t("port_des2")}
               </p>
             </div>
             <div className="static sm:static md:static px-6 py-4 inset-x-0 bottom-0">
@@ -228,7 +226,7 @@ const Project = ({ darkMode }) => {
                     : "bg-gray-100   text-[#948888] "
                 }`}
               >
-                Oct - Nov 2023
+                {t("port_time3")}
               </div>
               <img
                 className="w-full p-2 rounded-t-[25px]"
@@ -246,9 +244,7 @@ const Project = ({ darkMode }) => {
                 Mini e-commerce Shoe
               </div>
               <p className="text-base sm:text-sm xl:text-base">
-                Project for Advanced Web Application Course: I developed a basic
-                online sport shoe store using Mongodb, Angular, and Express.js,
-                utilizing MEAN STACK and middleware architecture.
+                {t("port_des3")}
               </p>
             </div>
             <div className="static sm:static md:static px-6 py-4 inset-x-0 bottom-0">
@@ -321,10 +317,10 @@ const Project = ({ darkMode }) => {
                   : "bg-gray-100   text-[#948888] "
               }`}
             >
-              Nov 2023 - Feb 2024
+              {t("port_time4")}
             </div>
             <div class="absolute top-0 left-0 bg-red-500 text-white px-2 py-1 m-2 rounded-sm text-sm sm:text-[10px] xl:text-sm  font-medium">
-              cannot be disclosed
+            {t("warming")}
             </div>
             <div className="px-6 py-4 ">
               <div
@@ -332,13 +328,10 @@ const Project = ({ darkMode }) => {
                   darkMode ? "text-dark-secondary" : "text-[#f17c42]"
                 }`}
               >
-                HRMS : Fairmanpower
+                {t("port4")}
               </div>
               <p className="text-base sm:text-sm xl:text-base">
-                This solution, which is presently available for trial within the
-                company, I attempts to establish an effective workforce
-                management system to ensure accuracy in Management Employee and
-                Payroll.
+                {t("port_des4")}
               </p>
             </div>
             <div className="static sm:static md:static px-6 py-4 inset-x-0 bottom-0">
@@ -407,7 +400,7 @@ const Project = ({ darkMode }) => {
                     : "bg-gray-100   text-[#948888] "
                 }`}
               >
-                Oct - Nov 2023
+                {t("port_time5")}
               </div>
               <img
                 className="w-full  object-cover p-2 rounded-t-[25px]"
@@ -424,10 +417,7 @@ const Project = ({ darkMode }) => {
                 Audio NFTs Marketplace
               </div>
               <p className="text-base sm:text-sm xl:text-base">
-                This Fideyourtracks feature is challenging me to learn Solidity
-                and Ganache in order to code tokens for listings and minting,
-                wallets, and Metamask bidding for listing or purchasing audio
-                NFT on marketplace.
+                {t("port_des5")}
               </p>
             </div>
             <div className="static sm:static md:static px-6 py-4 inset-x-0 bottom-0">

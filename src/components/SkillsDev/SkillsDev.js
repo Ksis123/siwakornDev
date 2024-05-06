@@ -34,12 +34,19 @@ import mongodb from "../../SVG/icon/mongodb-svgrepo-com.svg";
 import sqlite from "../../SVG/icon/sqlite-svgrepo-com.svg";
 import sqlserver from "../../SVG/icon/microsoft-sql-server-logo-svgrepo-com.svg";
 
-const SkillsDev = ({ darkMode }) => {
+import { useTranslation } from 'react-i18next';
+
+
+const SkillsDev = ({ changeLanguage, darkMode }) => {
+
+  const { t } = useTranslation();
+
+
   return (
     <div className="justify-center">
       <div className="px-4 sm:px-6">
         <h3 className="text-lg md:text-xl lg:text-2xl leading-4 font-bold ">
-          Skills Developer
+          {t('skill')}
         </h3>
       </div>
       <div className=" mt-3 mb-6 lg:mx-8 ">
@@ -57,7 +64,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="React"
                 ></img>
                 <h2 className="absolute  uppercase overflow-visible	 text-sm opacity-0 duration-500  group-hover:opacity-100 ">
-                  1 year
+                  {t('1y')} 
                 </h2>
               </div>
             </div>
@@ -78,7 +85,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Next"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  6 Month
+                  {t('6m')} 
                 </h2>
               </div>
             </div>
@@ -99,7 +106,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Angular"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  6 Month
+                  {t('6m')}
                 </h2>
               </div>
             </div>
@@ -120,7 +127,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Vue"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  2 Month
+                  {t('6m')} 
                 </h2>
               </div>
             </div>
@@ -141,7 +148,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Laravel"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  2 Month
+                  {t('6m')}
                 </h2>
               </div>
             </div>
@@ -162,10 +169,10 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Tailwind"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  1 year
+                  {t('1y')}
                 </h2>
                 <span className="absolute text-[12px] mt-6 opacity-0 duration-500 transition-all group-hover:opacity-100">
-                  Expert
+                {t('expert')}
                 </span>
               </div>
             </div>
@@ -186,7 +193,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="HTML"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  3 year
+                  {t('3y')} 
                 </h2>
               </div>
             </div>
@@ -207,10 +214,10 @@ const SkillsDev = ({ darkMode }) => {
                   alt="CSS3"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  3 year
+                  {t('3y')}
                 </h2>
                 <span className="absolute text-[12px] mt-6 opacity-0 duration-500 transition-all group-hover:opacity-100">
-                  Expert
+                {t('expert')}
                 </span>
               </div>
             </div>
@@ -231,7 +238,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Figma"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  6 Month
+                  {t('6m')}
                 </h2>
               </div>
             </div>
@@ -252,7 +259,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Bootrap"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  1 year
+                  {t('1y')}
                 </h2>
               </div>
             </div>
@@ -273,7 +280,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Profile"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  1 year
+                  {t('1y')}
                 </h2>
               </div>
             </div>
@@ -294,7 +301,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Typescript"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  1 year
+                  {t('1y')}
                 </h2>
               </div>
             </div>
@@ -315,7 +322,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Github"
                 ></img>
                 <h2 className="absolute uppercase text-center text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  Basic
+                {t('basic')}
                 </h2>
               </div>
             </div>
@@ -336,7 +343,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="LINEDeveloper"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  6 Month
+                  {t('6m')}
                 </h2>
               </div>
             </div>
@@ -357,7 +364,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Solidity"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  6 Month
+                  {t('6m')}
                 </h2>
               </div>
             </div>
@@ -378,7 +385,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Golang"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  1 year
+                  {t('1y')}
                 </h2>
               </div>
             </div>
@@ -399,7 +406,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Profile"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  2 year
+                {t('2y')} 
                 </h2>
               </div>
             </div>
@@ -420,7 +427,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="php"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  4 Month
+                  {t('4m')} 
                 </h2>
               </div>
             </div>
@@ -441,7 +448,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Node"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  1 year
+                  {t('1y')}
                 </h2>
               </div>
             </div>
@@ -462,7 +469,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="Express"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  4 Month
+                  {t('4m')}
                 </h2>
               </div>
             </div>
@@ -483,7 +490,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="cplus"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  4 Month
+                  {t('4m')}
                 </h2>
               </div>
             </div>
@@ -504,7 +511,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="cshap"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  4 Month
+                  {t('4m')}
                 </h2>
               </div>
             </div>
@@ -525,7 +532,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="java"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  4 Month
+                  {t('4m')}
                 </h2>
               </div>
             </div>
@@ -546,7 +553,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="docker"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  2 Month
+                  {t('6m')}
                 </h2>
               </div>
             </div>
@@ -568,7 +575,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="mysql"
                 ></img>
                 <h2 className="absolute uppercase text-sm opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  1 year
+                  {t('1y')}
                 </h2>
               </div>
             </div>
@@ -589,7 +596,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="MongoDB"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  4 Month
+                  {t('4m')}
                 </h2>
               </div>
             </div>
@@ -610,7 +617,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="SQLite"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  8 Month
+                {t('8m')} 
                 </h2>
               </div>
             </div>
@@ -632,7 +639,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="sqlserver"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  4 Month
+                  {t('4m')}
                 </h2>
               </div>
             </div>
