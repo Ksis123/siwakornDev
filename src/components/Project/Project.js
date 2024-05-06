@@ -47,7 +47,7 @@ const Project = ({ darkMode }) => {
           >
             <a href="https://github.com/sut65/team12.git">
               <div
-                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm sm:text-[10px] xl:text-sm font-medium   ${
                   darkMode
                     ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
                     : "bg-gray-100   text-[#948888] "
@@ -136,7 +136,7 @@ const Project = ({ darkMode }) => {
           >
             <a href="https://github.com/Ksis123/Fideyourtracks.git">
               <div
-                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm sm:text-[10px] xl:text-sm font-medium   ${
                   darkMode
                     ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
                     : "bg-gray-100   text-[#948888] "
@@ -222,7 +222,7 @@ const Project = ({ darkMode }) => {
           >
             <a href="https://github.com/Ksis123/Sports-Shoes-E-commerce.git">
               <div
-                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm sm:text-[10px] xl:text-sm font-medium   ${
                   darkMode
                     ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
                     : "bg-gray-100   text-[#948888] "
@@ -315,7 +315,7 @@ const Project = ({ darkMode }) => {
               alt="Fairmanpower"
             />
             <div
-              className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+              className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm sm:text-[10px] xl:text-sm font-medium   ${
                 darkMode
                   ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
                   : "bg-gray-100   text-[#948888] "
@@ -323,7 +323,7 @@ const Project = ({ darkMode }) => {
             >
               Nov 2023 - Feb 2024
             </div>
-            <div class="absolute top-0 left-0 bg-red-500 text-white px-2 py-1 m-2 rounded-sm text-sm font-medium">
+            <div class="absolute top-0 left-0 bg-red-500 text-white px-2 py-1 m-2 rounded-sm text-sm sm:text-[10px] xl:text-sm  font-medium">
               cannot be disclosed
             </div>
             <div className="px-6 py-4 ">
@@ -401,7 +401,7 @@ const Project = ({ darkMode }) => {
           >
             <a href="https://github.com/Ksis123/fideyourtracks_Marketplace.git">
               <div
-                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm sm:text-[10px] xl:text-sm font-medium   ${
                   darkMode
                     ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
                     : "bg-gray-100   text-[#948888] "
