@@ -68,7 +68,7 @@
   "exp_title": "ประสบการณ์การทำงาน",
   "exp1": "สหกิจศึกษา",
   "exp2": "นักศึกษาวิศวกรรมคอมพิวเตอร์",
-  "exp3": "ผู้เข้าแข่งขัน รายการ National Software Contest - NSC Thailand",
+  "exp3": "National Software Contest - NSC Thailand",
   "exp_time1": "พ.ย. 2566 - ก.พ. 2567",
   "exp_time2": "ก.ย. 2565 - ก.พ. 2565",
   "exp_time3": "ต.ค. 2561",
@@ -94,10 +94,10 @@
   "port_time3": "ต.ค. - พ.ย. 2566",
   "port_time4": "พ.ย. 2566 - ก.พ. 2567",
   "port_time5": "ต.ย. - พ.ย. 2566",
-  "port_des1": "โปรเจค Software Engineering : ทีมผมได้ฝึกคิด requirement จากโรงพยาบาลเพื่อแก้ปัญหาให้ได้มากที่สุด และร่วมกับทีมพัฒนาด้วยภาษา Golang ใช้ Gin ในการตืดต่อฐานข้อมูล SQLite เรียนรู้การทำ RESTful APIs เพื่อส่งข้อมูลไปยัง React interface ที่เขียนด้วย Typescript",
+  "port_des1": "โปรเจค Software Engineering : ทีมผมได้ฝึกคิด requirement จากโรงพยาบาลเพื่อแก้ปัญหาให้ได้มากที่สุด และร่วมกับทีมพัฒนาด้วยภาษา Golang ใช้ Gin ในการติดต่อฐานข้อมูล SQLite เรียนรู้การทำ RESTful APIs เพื่อส่งข้อมูลไปยัง React interface ที่เขียนด้วย Typescript",
   "port_des2": "Music Player: Web Application ของผม ผมได้ทดลองฝึกทักษะการเขียน express.js ทำงานร่วมกับ React ด้วยเหตุผลที่อยากลองทำมิวสิคเพลย์เยอร์เป็นของตัวเองซักครั้ง สำหรับโปรเจคนี้ได้เรียนรู้การทำ RESTful APIs รวมไปถึงการจัดการ State ด้วย Redux toolkit",
   "port_des3": "โปรเจค Advanced Web Application : ผมมีไอเดียที่อยากลองสร้างระบบร้านขายรองเท้ากีฬา โดยพัฒนาด้วยภาษา Mongodb, Angular, และ Express.js ถือเป็นการฝึก MEAN STACK ไปในตัวรวมถึงจัดการ middleware architecture และสร้าง LINE Chatbot สำหรับโต้ตอบลูกค้า",
   "port_des4": "เป็นระบบแก้ปัญหาภาระการเขียนมือเพื่อคำนวณข้อมูล มาเป็นการนำข้อมูลมาจัดการบนระบบเพื่อให้มองเห็นภาพรวมการวางแผนทรัพยาการบุคคลได้ดีขึ้นและมั่นใจในความถูกต้องของข้อมูลพนักงานและการจัดการบัญชีเงินเดือนภายในองค์กร ลดภาระแอดมิน",
-  "port_des5": "เป็นฟีเจอร์เพิ่มเติมให้กับ Fideyourtracks เป็นส่วนที่ท้าทายผมมากที่สุดสำหรับการเรียรรู้ภาษา Solidity และ Ganache ผมเขียน Smart contracts เพื่อสร้าง tokens ไปใช้ในการ minting โดยใช้ Metamask ในการซื้อ-ขาย เสียง NFT บน marketplace"
+  "port_des5": "เป็นฟีเจอร์เพิ่มเติมให้กับ Fideyourtracks เป็นส่วนที่ท้าทายผมมากที่สุดสำหรับการเรียนรู้ภาษา Solidity และ Ganache ผมเขียน Smart contracts เพื่อสร้าง tokens ไปใช้ในการ minting โดยใช้ Metamask ในการซื้อขาย เสียง NFT บน marketplace"
 
 }
