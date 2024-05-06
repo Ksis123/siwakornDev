@@ -23,14 +23,16 @@ import python from "../../SVG/icon/python-svgrepo-com.svg";
 import node from "../../SVG/icon/node-js-svgrepo-com.svg";
 import php from "../../SVG/icon/php-1-logo-svgrepo-com.svg";
 import exprees from "../../SVG/icon/express-svgrepo-com.svg";
-import c from "../../SVG/icon/c.svg"
-import cshap from "../../SVG/icon/c-sharp-programming-language-icon.svg"
-
+import c from "../../SVG/icon/c.svg";
+import cshap from "../../SVG/icon/c-sharp-programming-language-icon.svg";
+import java from "../../SVG/icon/java-svgrepo-com.svg";
+import docker from "../../SVG/icon/docker-svgrepo-com.svg";
 
 // DB
 import mysql from "../../SVG/icon/mysql-logo-svgrepo-com.svg";
-import mongodb from "../../SVG/icon/mongodb-svgrepo-com.svg"
+import mongodb from "../../SVG/icon/mongodb-svgrepo-com.svg";
 import sqlite from "../../SVG/icon/sqlite-svgrepo-com.svg";
+import sqlserver from "../../SVG/icon/microsoft-sql-server-logo-svgrepo-com.svg";
 
 const SkillsDev = ({ darkMode }) => {
   return (
@@ -41,7 +43,7 @@ const SkillsDev = ({ darkMode }) => {
         </h3>
       </div>
       <div className=" mt-3 mb-6 lg:mx-8 ">
-        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-x-4 gap-y-4 grid-flow-row">
+        <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-6 gap-x-4 gap-y-4 grid-flow-row">
           <div className="flex flex-col justify-center items-center ">
             <div
               className={`skill shadow-lg  w-[5rem] h-[5rem] group   ${
@@ -502,7 +504,7 @@ const SkillsDev = ({ darkMode }) => {
                   alt="cshap"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                4 Month
+                  4 Month
                 </h2>
               </div>
             </div>
@@ -510,6 +512,49 @@ const SkillsDev = ({ darkMode }) => {
               C#
             </div>
           </div>
+          <div className="flex flex-col justify-center items-center ">
+            <div
+              className={`skill shadow-lg  w-[5rem] h-[5rem] group  ${
+                darkMode ? "bg-[#4a4848] " : "bg-white"
+              }`}
+            >
+              <div className=" z-[3] absolute rounded-[50%] flex flex-col justify-center items-center duration-500 transition-all hover:border-light-primary border-2 inset-1  overflow-hidden">
+                <img
+                  className="object-cover w-4/6 h-4/6 duration-500 transition-all group-hover:opacity-0"
+                  src={java}
+                  alt="java"
+                ></img>
+                <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
+                  4 Month
+                </h2>
+              </div>
+            </div>
+            <div className="text-center text-[12px] md:text-sm xl:text-base">
+              Java
+            </div>
+          </div>
+          <div className="flex flex-col justify-center items-center ">
+            <div
+              className={`skill shadow-lg  w-[5rem] h-[5rem] group  ${
+                darkMode ? "bg-[#4a4848] " : "bg-white"
+              }`}
+            >
+              <div className=" z-[3] absolute rounded-[50%] flex flex-col justify-center items-center duration-500 transition-all hover:border-light-primary border-2 inset-1  overflow-hidden">
+                <img
+                  className="object-cover w-4/6 h-4/6 duration-500 transition-all group-hover:opacity-0"
+                  src={docker}
+                  alt="docker"
+                ></img>
+                <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
+                  2 Month
+                </h2>
+              </div>
+            </div>
+            <div className="text-center text-[12px] md:text-sm xl:text-base">
+              Docker
+            </div>
+          </div>
+
           <div className="flex flex-col justify-center items-center ">
             <div
               className={`skill shadow-lg  w-[5rem] h-[5rem] group  ${
@@ -528,7 +573,7 @@ const SkillsDev = ({ darkMode }) => {
               </div>
             </div>
             <div className="text-center text-[12px] md:text-sm xl:text-base">
-            Mysql
+              Mysql
             </div>
           </div>
           <div className="flex flex-col justify-center items-center ">
@@ -544,12 +589,12 @@ const SkillsDev = ({ darkMode }) => {
                   alt="MongoDB"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                4 Month
+                  4 Month
                 </h2>
               </div>
             </div>
             <div className="text-center text-[12px] md:text-sm xl:text-base">
-            MongoDB
+              MongoDB
             </div>
           </div>
           <div className="flex flex-col justify-center items-center ">
@@ -565,15 +610,38 @@ const SkillsDev = ({ darkMode }) => {
                   alt="SQLite"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                   8 Month
+                  8 Month
                 </h2>
               </div>
             </div>
             <div className="text-center text-[12px] md:text-sm xl:text-base">
-            SQLite
+              SQLite
+            </div>
+          </div>
+
+          <div className="flex flex-col justify-center items-center ">
+            <div
+              className={`skill shadow-lg  w-[5rem] h-[5rem] group  ${
+                darkMode ? "bg-[#4a4848] " : "bg-white"
+              }`}
+            >
+              <div className=" z-[3] absolute rounded-[50%] flex flex-col justify-center items-center duration-500 transition-all hover:border-light-primary border-2 inset-1  overflow-hidden">
+                <img
+                  className="object-cover w-3/4 h-3/4 duration-500 transition-all group-hover:opacity-0"
+                  src={sqlserver}
+                  alt="sqlserver"
+                ></img>
+                <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
+                  4 Month
+                </h2>
+              </div>
+            </div>
+            <div className="text-center text-[12px] md:text-sm xl:text-base">
+              SQL Server
             </div>
           </div>
         </div>
+        
       </div>
     </div>
   );

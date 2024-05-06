@@ -22,7 +22,7 @@ import sqlserver from "../../SVG/icon/microsoft-sql-server-logo-svgrepo-com.svg"
 import mongodb from "../../SVG/icon/mongodb-svgrepo-com.svg";
 import sqlite from "../../SVG/icon/sqlite-svgrepo-com.svg";
 
-import fair from "../../img/web/fair.png";
+import fair from "../../img/web/hrms.gif";
 import fyt from "../../img/web/Fideyourtracks - Music Web.gif";
 import nft from "../../img/web/Fideyourtracks.gif";
 
@@ -46,12 +46,22 @@ const Project = ({ darkMode }) => {
             }`}
           >
             <a href="https://github.com/sut65/team12.git">
+              <div
+                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+                  darkMode
+                    ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
+                    : "bg-gray-100   text-[#948888] "
+                }`}
+              >
+                Jan - Feb 2023
+              </div>
               <img
-                className="w-full p-2 rounded-t-[30px]"
+                className="w-full p-2 rounded-t-[25px]"
                 src={impatient}
                 alt="impatient"
               />
             </a>
+
             <div className="px-6 py-4">
               <div
                 className={`font-bold text-xl mb-2 ${
@@ -60,11 +70,12 @@ const Project = ({ darkMode }) => {
               >
                 Inpatient System
               </div>
+
               <p className="text-base sm:text-sm xl:text-base">
                 Software Engineering Project: The hospital has given my team a
-                requirement, My team and I have developed a Golang Gin RESTful APIs
-                to control the transfer of data to a Typescript-powered React
-                interface.
+                requirement, My team and I have developed a Golang Gin RESTful
+                APIs to control the transfer of data to a Typescript-powered
+                React interface.
               </p>
             </div>
             <div className="static sm:static md:static px-6 py-4 inset-x-0 bottom-0">
@@ -75,7 +86,7 @@ const Project = ({ darkMode }) => {
                     : "bg-[#fdfdfdfe]"
                 }`}
               >
-                <img src={go} alt="go" ></img>
+                <img src={go} alt="go"></img>
               </span>
               <span
                 className={`inline-block  rounded-full p-1 w-10 h-10 lg:w-[45px] lg:h-[45px] overflow-hidden shadow-lg mr-2  ${
@@ -124,8 +135,17 @@ const Project = ({ darkMode }) => {
             }`}
           >
             <a href="https://github.com/Ksis123/Fideyourtracks.git">
+              <div
+                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+                  darkMode
+                    ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
+                    : "bg-gray-100   text-[#948888] "
+                }`}
+              >
+                Aug - Oct 2023
+              </div>
               <img
-                className="w-full object-cover p-2 rounded-t-[30px]"
+                className="w-full object-cover p-2 rounded-t-[25px]"
                 src={fyt}
                 alt="Fideyourtracks"
               />
@@ -139,10 +159,10 @@ const Project = ({ darkMode }) => {
                 Fideyourtracks
               </div>
               <p className="text-base sm:text-sm xl:text-base">
-                My Music Player: Web Application project, I improved my express.js and
-                React skills to make my own music player for this project. by by
-                developing RESTful APIs and applying Redux toolkit for state
-                management.
+                My Music Player: Web Application project, I improved my
+                express.js and React skills to make my own music player for this
+                project. by by developing RESTful APIs and applying Redux
+                toolkit for state management.
               </p>
             </div>
             <div className="static sm:static md:static px-6 py-4 inset-x-0 bottom-0">
@@ -201,8 +221,17 @@ const Project = ({ darkMode }) => {
             }`}
           >
             <a href="https://github.com/Ksis123/Sports-Shoes-E-commerce.git">
+              <div
+                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+                  darkMode
+                    ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
+                    : "bg-gray-100   text-[#948888] "
+                }`}
+              >
+                Oct - Nov 2023
+              </div>
               <img
-                className="w-full p-2 rounded-t-[30px]"
+                className="w-full p-2 rounded-t-[25px]"
                 src={shoe}
                 alt="Sunset in the mountains"
               />
@@ -227,7 +256,7 @@ const Project = ({ darkMode }) => {
                 className={`inline-block  rounded-full p-1 w-10 h-10 lg:w-[45px] lg:h-[45px] overflow-hidden shadow-lg mr-2   ${
                   darkMode
                     ? "bg-[#69625e95] backdrop-blur-[0.65rem] "
-                    : "bg-[#fdfdfdfe]"
+                    : "bg-gray-100   text-[#948888] "
                 }`}
               >
                 <img src={mongodb} className="object-cover" alt="mongodb"></img>
@@ -281,11 +310,20 @@ const Project = ({ darkMode }) => {
             }`}
           >
             <img
-              className="w-full  object-cover p-2 rounded-t-[30px]"
+              className="w-full  object-cover p-2 rounded-t-[25px]"
               src={fair}
               alt="Fairmanpower"
             />
-            <div class="absolute top-0 right-0 bg-red-500 text-white px-2 py-1 m-2 rounded-md text-sm font-medium">
+            <div
+              className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+                darkMode
+                  ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
+                  : "bg-gray-100   text-[#948888] "
+              }`}
+            >
+              Nov 2023 - Feb 2024
+            </div>
+            <div class="absolute top-0 left-0 bg-red-500 text-white px-2 py-1 m-2 rounded-sm text-sm font-medium">
               cannot be disclosed
             </div>
             <div className="px-6 py-4 ">
@@ -362,8 +400,17 @@ const Project = ({ darkMode }) => {
             }`}
           >
             <a href="https://github.com/Ksis123/fideyourtracks_Marketplace.git">
+              <div
+                className={`absolute top-1 right-1 shadow-lg px-2 py-1 m-2 rounded-[15px]  text-sm font-medium   ${
+                  darkMode
+                    ? "bg-[#444343] backdrop-blur-[1rem]  text-[#d5cfca]"
+                    : "bg-gray-100   text-[#948888] "
+                }`}
+              >
+                Oct - Nov 2023
+              </div>
               <img
-                className="w-full  object-cover p-2 rounded-t-[30px]"
+                className="w-full  object-cover p-2 rounded-t-[25px]"
                 src={nft}
                 alt="fytnft"
               />
@@ -379,8 +426,8 @@ const Project = ({ darkMode }) => {
               <p className="text-base sm:text-sm xl:text-base">
                 This Fideyourtracks feature is challenging me to learn Solidity
                 and Ganache in order to code tokens for listings and minting,
-                wallets, and Metamask bidding for listing or purchasing
-                audio NFT on marketplace.
+                wallets, and Metamask bidding for listing or purchasing audio
+                NFT on marketplace.
               </p>
             </div>
             <div className="static sm:static md:static px-6 py-4 inset-x-0 bottom-0">

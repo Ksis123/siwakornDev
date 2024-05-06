@@ -23,7 +23,7 @@ const Sidebar = ({ darkMode }) => {
       >
         <div className="py-2 px-8 flex sm:py-2 lg:py-4 lg:items-center  lg:justify-center ">
           <div
-            className={`shadow-xl border-2  rounded-full p-1 w-[4.5rem] h-[4.5rem] sm:w-[5rem] sm:h-[5rem] lg:w-[8.5rem] lg:h-[8.5rem] transition-transform duration-300 transform-gpu hover:scale-110  ${
+            className={`shadow-xl border-2  rounded-full p-1 mt-2 w-[4rem] h-[4rem] sm:mt-0 sm:w-[5rem] sm:h-[5rem]  lg:w-[8.5rem] lg:h-[8.5rem] transition-transform duration-300 transform-gpu hover:scale-110  ${
               darkMode ? "border-[#ffffffdc]" : "border-[#ffd2b1]"
             }`}
           >
@@ -50,7 +50,7 @@ const Sidebar = ({ darkMode }) => {
 
         {/* Menu */}
         <ul>
-          <li className="fixed left-[100px] md:left-[230px] top-[50px] lg:relative flex   lg:flex-col items-center mx-4 lg:w-[222px] lg:left-0  ">
+          <li className="fixed left-[100px] md:left-[230px] top-[35px] lg:relative flex   lg:flex-col items-center mx-4 lg:w-[222px] lg:left-0  ">
             <Link to="/aboutMe">
               <button
                 className={`flex flex-wrap items-center gap-1 sm:flex-nowrap md:gap-3  rounded-[10px] w-[35px] h-[25px] sm:w-[110px] md:h-[30px] md:w-[110px]  lg:h-[40px]  lg:w-[200px] lg:text-base mt-1 justify-center ${
