@@ -6,7 +6,7 @@ i18n
   .use(XHR)
   .use(initReactI18next )
   .init({
-    fallbackLng: 'th',
+    fallbackLng: 'en',
     ns: ['trans'],
     defaultNS: 'trans',
     debug: true,
