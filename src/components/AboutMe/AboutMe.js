@@ -6,6 +6,8 @@ import { useTranslation } from 'react-i18next';
 
 import filetranscript from "../../static/media/Transcript.pdf";
 import resume from "../../static/media/Resume_Siwakorn_0657313223.pdf";
+import cv from "../../static/media/CV_Siwakorn_0657313223.pdf";
+
 
 const AboutMe = ({ changeLanguage, darkMode }) => {
   const [activeTab, setActiveTab] = useState("Introduction");
@@ -21,11 +23,10 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
         <div className="xl:w-96 w-[300px] mx-auto mr-2">
           <button
             onClick={() => handleTabClick("Introduction")}
-            className={`text-sm xl:text-lg ${
-              activeTab === "Introduction"
-                ? "bg-[#f78851] duration-500 text-white"
-                : "text-[#fa9867] duration-500 hover:bg-[#fdb896] hover:text-white"
-            } px-2 py-1 rounded-2xl  focus:outline-none`}
+            className={`text-sm xl:text-lg ${activeTab === "Introduction"
+              ? "bg-[#f78851] duration-500 text-white"
+              : "text-[#fa9867] duration-500 hover:bg-[#fdb896] hover:text-white"
+              } px-2 py-1 rounded-2xl  focus:outline-none`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -45,11 +46,10 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
           </button>
           <button
             onClick={() => handleTabClick("personal")}
-            className={`text-sm xl:text-lg ${
-              activeTab === "personal"
-                ? "bg-[#f78851] duration-500 text-white"
-                : "text-[#fa9867] duration-500 hover:bg-[#fdb896] hover:text-white"
-            } px-2 py-1 rounded-2xl  focus:outline-none`}
+            className={`text-sm xl:text-lg ${activeTab === "personal"
+              ? "bg-[#f78851] duration-500 text-white"
+              : "text-[#fa9867] duration-500 hover:bg-[#fdb896] hover:text-white"
+              } px-2 py-1 rounded-2xl  focus:outline-none`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -70,11 +70,10 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
 
           <button
             onClick={() => handleTabClick("education")}
-            className={`text-sm xl:text-lg ${
-              activeTab === "education"
-                ? "bg-[#f78851] duration-500 text-white"
-                : "text-[#fa9867] duration-500 hover:bg-[#fdb896] hover:text-white"
-            } px-2 py-1 rounded-2xl  focus:outline-none`}
+            className={`text-sm xl:text-lg ${activeTab === "education"
+              ? "bg-[#f78851] duration-500 text-white"
+              : "text-[#fa9867] duration-500 hover:bg-[#fdb896] hover:text-white"
+              } px-2 py-1 rounded-2xl  focus:outline-none`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -103,24 +102,36 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
               </span>
               <div className="w-max">
                 <h1 className="mx-8 animate-typing overflow-hidden whitespace-nowrap border-r-4    md:text-6xl sm: text-3xl font-bold text-[#fe945f]">
-                {t('subtitle')}
+                  {t('subtitle')}
                 </h1>
               </div>
 
               <p className="md:max-w-[700px] max-w-[450px] leading-5 text-left">
-              {t('welcome_message')}
+                {t('welcome_message')}
                 <br />
                 <br />
                 {t('welcome_message_final')}
               </p>
-              <div className="flex w-full items-center justify-center gap-4">
+              <div className="flex  w-full items-center justify-center gap-4">
+                <a
+                  className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full bg-light-primary shadow-lg hover:bg-orange-500 transition-all duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium "
+                  href={cv}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <label className="fixed  invisible sm:relative sm:visible cursor-pointer">
+                    {t('download')}
+                  </label> CV
+                </a>
                 <a
                   className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full bg-light-primary shadow-lg hover:bg-orange-500 transition-all duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium "
                   href={resume}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Download Resume
+                  <label className="fixed invisible sm:relative  sm:visible cursor-pointer">
+                    {t('download')}
+                  </label> Resume
                 </a>
 
                 <Link
@@ -138,25 +149,25 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
             <div class="shadow  overflow-hidden  rounded-lg ">
               <div class="px-4 py-5 sm:px-6">
                 <h3 class="text-2xl leading-4 font-bold text-light-primary">
-                {t('p_title')}
+                  {t('p_title')}
                 </h3>
                 <p class="mt-1 max-w-2xl text-sm text-gray-500">
-                {t('p_detail')}.
+                  {t('p_detail')}.
                 </p>
               </div>
               <div class="border-t px-4 py-5 sm:p-0">
                 <dl>
                   <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt class="text-sm font-medium md:text-base text-light-primary">
-                    {t('p1')}
+                      {t('p1')}
                     </dt>
                     <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
-                    {t('a1')}
+                      {t('a1')}
                     </dd>
                   </div>
                   <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt class="text-sm font-medium md:text-base text-light-primary">
-                    {t('p2')}
+                      {t('p2')}
                     </dt>
                     <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       {new Date().getFullYear() - 2002} {t('a2')}
@@ -164,7 +175,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                   </div>
                   <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt class="text-sm font-medium md:text-base text-light-primary">
-                    {t('p3')}
+                      {t('p3')}
                     </dt>
                     <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       <a target="blank" href="mailto:khemkhemsiwa555@gmail.com">
@@ -174,7 +185,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                   </div>
                   <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt class="text-sm font-medium md:text-base text-light-primary">
-                    {t('p4')}
+                      {t('p4')}
                     </dt>
                     <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       (+66) 65-731-3223
@@ -182,20 +193,20 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                   </div>
                   <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt class="text-sm font-medium md:text-base text-light-primary">
-                    {t('p5')}
+                      {t('p5')}
                     </dt>
                     <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       <span className="flex gap-2">
-                      {t('a5')}
+                        {t('a5')}
                       </span>
                     </dd>
                   </div>
                   <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                     <dt class="text-sm font-medium md:text-base text-light-primary">
-                    {t('p6')}
+                      {t('p6')}
                     </dt>
                     <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
-                    {t('a6')}
+                      {t('a6')}
                     </dd>
                   </div>
                 </dl>
@@ -213,15 +224,15 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                 </div>
                 <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                   <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
-                  {t('y1')}
+                    {t('y1')}
                   </time>
                   <div class="text-lg font-bold ">
-                  {t('major1')}
+                    {t('major1')}
                   </div>
                 </div>
                 <div class="opacity-80">
-                {t('province1')} <br />
-                {t('someting1')}
+                  {t('province1')} <br />
+                  {t('someting1')}
                   <br />
                   <a
                     className="px-2 rounded-[10px] w-1/2 border-2 sm:w-[100px] justify-center bg-light-primary duration-500 hover:border-dark-primary hover:bg-[#ffffff2f] hover:text-dark-secondary"
@@ -237,36 +248,36 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
 
               <div class="relative pl-8 sm:pl-32 py-6 group">
                 <div className="font-bold text-xl md:text-xl  mb-1 sm:mb-0 text-dark-secondary ">
-                {t('edu2')}
+                  {t('edu2')}
                 </div>
                 <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                   <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
-                  {t('y2')}
+                    {t('y2')}
                   </time>
                   <div class="text-lg font-bold ">
-                  {t('major2')}
+                    {t('major2')}
                   </div>
                 </div>
                 <div class="opacity-80">
-                {t('province2')} <br />
-                {t('someting2')} <br />
+                  {t('province2')} <br />
+                  {t('someting2')} <br />
                 </div>
               </div>
 
               <div class="relative pl-8 sm:pl-32 py-6 group">
                 <div className="font-bold text-xl md:text-xl  mb-1 sm:mb-0 text-dark-secondary ">
-                {t('edu3')}
+                  {t('edu3')}
                 </div>
                 <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                   <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
-                  {t('y2')}
+                    {t('y2')}
                   </time>
                   <div class="text-lg font-bold ">
-                  {t('major3')}
+                    {t('major3')}
                   </div>
                 </div>
                 <div class="opacity-80">
-                {t('province3')} <br />
+                  {t('province3')} <br />
                 </div>
               </div>
             </div>

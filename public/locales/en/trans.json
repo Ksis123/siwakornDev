@@ -14,10 +14,12 @@
   "tabmenu2": "Profile",
   "tabmenu3": "Education",
 
+  "download": "Download",
+
   "title": "Hi Guy, I'm Siwakorn",
   "subtitle": "Front End Developer",
-  "welcome_message": "Simplicity and user satisfaction are the core of my work. Many of my projects work under the Agile Methodology . I enjoy sharing my Tools Tricks with my teammates. Because I understand the core of CSS, that's why I expert in responsive design, including understanding concept JavaScript , from using framework experiments like React, Next.js, or Vue.js, I have Debugging skills from many project. I have developed basic blockchain and NFT projects.",
-  "welcome_message_final" : "Lastly, if you're in need of a front-end developer, I'm confident in my qualifications, I can collaborate with you to build the webapplication that is most suited for users, Thank you for your time. ",
+  "welcome_message": "Simplicity and user satisfaction are at the core of my work. I have worked on several projects following Agile Technology, focusing on user responsiveness. I enjoy sharing knowledge with other, especially because of my deep understanding of CSS, which has made me proficient in Responsive Design, as well as my experimentation with various frameworks like React, Next.js, and Vue.js. I gowned my debugging skills through every project I have worked on and have experience in developing basic blockchain and NFT projects.",
+  "welcome_message_final" : "Lastly, if you require a front-end developer, I am confident in my qualifications. I can work with you to create the web application that best serves users. Thank you for your time.",
   "my_portfolio" : "My Portfolio",
 
   "skill" : "Skills Developer",
@@ -41,7 +43,7 @@
   "p6": "Military Status",
 
   "a1": "Siwakorn Kaewmala (Nickname : Khem)",
-  "a2": " years old",
+  "a2": " Years old",
   "a5": "Khun Tan, Chiang Rai, Thailand",
   "a6": "Exempted",
 
@@ -100,10 +102,8 @@
   "port_time5": "Oct - Nov 2023",
   "port_des1": "Software Engineering Project: The hospital has given my team a requirement, My team and I have developed a Golang Gin RESTful APIs to control the transfer of data to a Typescript-powered React interface",
   "port_des2": "My Music Player: Web Application project, I improved my express.js and React skills to make my own music player for this project. building RESTful APIs and applying Redux toolkit for state management",
-  "port_des3": "Project for Advanced Web Application Course: I developed a basic online sport shoe store using Mongodb, Angular, and Express.js, utilizing MEAN STACK and middleware architecture",
+  "port_des3": "Project for Advanced Web Application Course: I developed online sport shoe store for Who interested in sports shoes, Practical MEAN stack for coding API, middleware architecture, Payment functionality",
   "port_des4": "This solution, which is presently available for trial within the company, I attempts to establish an effective workforce management system to ensure accuracy in Management Employee and Payroll",
-  "port_des5": "This Fideyourtracks feature is challenging me to learn Solidity and Ganache in order to code tokens for listings and minting, wallets, and Metamask bidding for listing or purchasing audio NFT on marketplace"
-
-
+  "port_des5": "Add a feature that challenges me to learn Solidity and Ganache to code Smart Contract base on ERC-721 for listings, minting and Metamask bidding for listing or Buying audio NFTs on the marketplace"
 
 }
