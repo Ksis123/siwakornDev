@@ -553,7 +553,7 @@ const SkillsDev = ({ changeLanguage, darkMode }) => {
                   alt="docker"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  {t('6m')}
+                  {t('2m')}
                 </h2>
               </div>
             </div>

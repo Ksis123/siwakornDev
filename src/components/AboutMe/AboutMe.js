@@ -270,7 +270,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                 </div>
                 <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
                   <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
-                    {t('y2')}
+                    {t('y3')}
                   </time>
                   <div class="text-lg font-bold ">
                     {t('major3')}
