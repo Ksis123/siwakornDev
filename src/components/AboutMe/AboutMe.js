@@ -116,6 +116,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                 <a
                   className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full bg-light-primary shadow-lg hover:bg-orange-500 transition-all duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium "
                   href={cv}
+                  download="CV_SIWAKORN"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -126,6 +127,8 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                 <a
                   className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full bg-light-primary shadow-lg hover:bg-orange-500 transition-all duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium "
                   href={resume}
+                  download="Resume_SIWAKORN"
+
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -146,66 +149,66 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
         )}
         {activeTab === "personal" && (
           <>
-            <div class="shadow  overflow-hidden  rounded-lg ">
-              <div class="px-4 py-5 sm:px-6">
-                <h3 class="text-2xl leading-4 font-bold text-light-primary">
+            <div className="shadow  overflow-hidden  rounded-lg ">
+              <div className="px-4 py-5 sm:px-6">
+                <h3 className="text-2xl leading-4 font-bold text-light-primary">
                   {t('p_title')}
                 </h3>
-                <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                <p className="mt-1 max-w-2xl text-sm text-gray-500">
                   {t('p_detail')}.
                 </p>
               </div>
-              <div class="border-t px-4 py-5 sm:p-0">
+              <div className="border-t px-4 py-5 sm:p-0">
                 <dl>
-                  <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                    <dt class="text-sm font-medium md:text-base text-light-primary">
+                  <div className="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-sm font-medium md:text-base text-light-primary">
                       {t('p1')}
                     </dt>
-                    <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
+                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       {t('a1')}
                     </dd>
                   </div>
-                  <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                    <dt class="text-sm font-medium md:text-base text-light-primary">
+                  <div className="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-sm font-medium md:text-base text-light-primary">
                       {t('p2')}
                     </dt>
-                    <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
+                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       {new Date().getFullYear() - 2002} {t('a2')}
                     </dd>
                   </div>
-                  <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                    <dt class="text-sm font-medium md:text-base text-light-primary">
+                  <div className="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-sm font-medium md:text-base text-light-primary">
                       {t('p3')}
                     </dt>
-                    <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
+                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       <a target="blank" href="mailto:khemkhemsiwa555@gmail.com">
                         khemkhemsiwa555@gmail.com
                       </a>
                     </dd>
                   </div>
-                  <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                    <dt class="text-sm font-medium md:text-base text-light-primary">
+                  <div className="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-sm font-medium md:text-base text-light-primary">
                       {t('p4')}
                     </dt>
-                    <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
+                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       (+66) 65-731-3223
                     </dd>
                   </div>
-                  <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                    <dt class="text-sm font-medium md:text-base text-light-primary">
+                  <div className="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-sm font-medium md:text-base text-light-primary">
                       {t('p5')}
                     </dt>
-                    <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
+                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       <span className="flex gap-2">
                         {t('a5')}
                       </span>
                     </dd>
                   </div>
-                  <div class="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                    <dt class="text-sm font-medium md:text-base text-light-primary">
+                  <div className="py-3 sm:py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt className="text-sm font-medium md:text-base text-light-primary">
                       {t('p6')}
                     </dt>
-                    <dd class="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
+                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
                       {t('a6')}
                     </dd>
                   </div>
@@ -217,20 +220,20 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
 
         {activeTab === "education" && (
           <>
-            <div class="-my-6 ">
-              <div class="relative pl-8 sm:pl-32 py-6 group ">
+            <div className="-my-6 ">
+              <div className="relative pl-8 sm:pl-32 py-6 group ">
                 <div className="font-bold text-xl md:text-xl  mb-1 sm:mb-0 text-dark-secondary ">
                   {t('edu1')}
                 </div>
-                <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-                  <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
+                <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
+                  <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
                     {t('y1')}
                   </time>
-                  <div class="text-lg font-bold ">
+                  <div className="text-lg font-bold ">
                     {t('major1')}
                   </div>
                 </div>
-                <div class="opacity-80">
+                <div className="opacity-80">
                   {t('province1')} <br />
                   {t('someting1')}
                   <br />
@@ -240,43 +243,43 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i class="fa-solid fa-file-pdf"></i>
+                    <i className="fa-solid fa-file-pdf"></i>
                     Transcript
                   </a>
                 </div>
               </div>
 
-              <div class="relative pl-8 sm:pl-32 py-6 group">
+              <div className="relative pl-8 sm:pl-32 py-6 group">
                 <div className="font-bold text-xl md:text-xl  mb-1 sm:mb-0 text-dark-secondary ">
                   {t('edu2')}
                 </div>
-                <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-                  <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
+                <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
+                  <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
                     {t('y2')}
                   </time>
-                  <div class="text-lg font-bold ">
+                  <div className="text-lg font-bold ">
                     {t('major2')}
                   </div>
                 </div>
-                <div class="opacity-80">
+                <div className="opacity-80">
                   {t('province2')} <br />
                   {t('someting2')} <br />
                 </div>
               </div>
 
-              <div class="relative pl-8 sm:pl-32 py-6 group">
+              <div className="relative pl-8 sm:pl-32 py-6 group">
                 <div className="font-bold text-xl md:text-xl  mb-1 sm:mb-0 text-dark-secondary ">
                   {t('edu3')}
                 </div>
-                <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-                  <time class="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
+                <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-light-primary sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-3 after:h-3 after:bg-light-text1 after:border-[3px] after:box-content after:border-light-primary after:rounded-full after:shadow-lg after:shadow-orange-500/50	 sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
+                  <time className="sm:absolute left-0 translate-y-0.5 inline-flex items-center justify-center text-xs font-semibold uppercase w-20 h-6 mb-3 sm:mb-0 text-light-secondary bg-light-text1 rounded-[5px]">
                     {t('y3')}
                   </time>
-                  <div class="text-lg font-bold ">
+                  <div className="text-lg font-bold ">
                     {t('major3')}
                   </div>
                 </div>
-                <div class="opacity-80">
+                <div className="opacity-80">
                   {t('province3')} <br />
                 </div>
               </div>

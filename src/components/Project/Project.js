@@ -319,7 +319,7 @@ const Project = ({ changeLanguage, darkMode }) => {
             >
               {t("port_time4")}
             </div>
-            <div class="absolute top-0 left-0 bg-red-500 text-white px-2 py-1 m-2 rounded-sm text-sm sm:text-[10px] xl:text-sm  font-medium">
+            <div className="absolute top-0 left-0 bg-red-500 text-white px-2 py-1 m-2 rounded-sm text-sm sm:text-[10px] xl:text-sm  font-medium">
             {t("warming")}
             </div>
             <div className="px-6 py-4 ">
