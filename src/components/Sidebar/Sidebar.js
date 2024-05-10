@@ -47,7 +47,7 @@ const Sidebar = ({ changeLanguage, darkMode }) => {
               {t('sidebar_name')}
           </h3>
           <span className="invisible  md:visible md:text-[0.75rem] leading-[1rem] opacity-50 block">
-            Front-End Developer <br /> <h6>· Software developer</h6>
+            Front-End Developer <br /> <h6>· Software durationeveloper</h6>
           </span>
         </div>
 
