@@ -127,7 +127,7 @@ const SkillsDev = ({ changeLanguage, darkMode }) => {
                   alt="Vue"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  {t('6m')} 
+                  {t('2m')} 
                 </h2>
               </div>
             </div>
@@ -148,7 +148,7 @@ const SkillsDev = ({ changeLanguage, darkMode }) => {
                   alt="Laravel"
                 ></img>
                 <h2 className="absolute uppercase text-[12px] opacity-0 duration-500 transition-all group-hover:opacity-100 ">
-                  {t('6m')}
+                  {t('2m')}
                 </h2>
               </div>
             </div>
@@ -264,7 +264,7 @@ const SkillsDev = ({ changeLanguage, darkMode }) => {
               </div>
             </div>
             <div className="text-center text-[12px] md:text-sm xl:text-base">
-              Bootrap
+              Bootstrap
             </div>
           </div>
           <div className="flex flex-col justify-center items-center ">

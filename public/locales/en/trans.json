@@ -25,7 +25,7 @@
   "skill" : "Skills Developer",
   "1y" : "1 year",
   "2y" : "2 year",
-  "3y" : "2 year",
+  "3y" : "3 year",
   "basic" : "Basic",
   "expert" : "Expert",
   "2m" : "2 month",
@@ -42,8 +42,8 @@
   "p5": "Address",
   "p6": "Military Status",
 
-  "a1": "Siwakorn Kaewmala (Nickname : Khem)",
-  "a2": " Years old",
+  "a1": "MR. Siwakorn Kaewmala (Nickname : Khem)",
+  "a2": " Years Old",
   "a5": "Khun Tan, Chiang Rai, Thailand",
   "a6": "Exempted",
 
