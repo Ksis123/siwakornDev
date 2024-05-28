@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
-
-
 import filetranscript from "../../static/media/Transcript.pdf";
 import resume from "../../static/media/Resume_Siwakorn_0657313223.pdf";
 import cv from "../../static/media/CV_Siwakorn_0657313223.pdf";
+import MultiTyping from "./MultiTyping";
 
 
 const AboutMe = ({ changeLanguage, darkMode }) => {
@@ -101,9 +100,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                 {t('title')}
               </span>
               <div className="w-max">
-                <h1 className="mx-8 animate-typing overflow-hidden whitespace-nowrap border-r-4    md:text-6xl sm: text-3xl font-bold text-[#fe945f]">
-                  {t('subtitle')}
-                </h1>
+                    <MultiTyping />
               </div>
 
               <p className="md:max-w-[700px] max-w-[450px] leading-5 text-left">
