@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
-import filetranscript from "../../static/media/Transcript.pdf";
+import fileGraduate from "../../static/media/Graduate_Certificate.pdf";
 import resume from "../../static/media/Resume_Siwakorn_0657313223.pdf";
 import cv from "../../static/media/CV_Siwakorn_0657313223.pdf";
 import MultiTyping from "./MultiTyping";
@@ -236,12 +236,12 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                   <br />
                   <a
                     className="px-2 rounded-[10px] w-1/2 border-2 sm:w-[100px] justify-center bg-light-primary duration-500 hover:border-dark-primary hover:bg-[#ffffff2f] hover:text-dark-secondary"
-                    href={filetranscript}
+                    href={fileGraduate}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <i className="fa-solid fa-file-pdf"></i>
-                    Transcript
+                    {t('graduate')}
                   </a>
                 </div>
               </div>
