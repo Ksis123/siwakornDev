@@ -111,7 +111,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
               </p>
               <div className="flex  w-full items-center justify-center gap-4">
                 <a
-                  className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full bg-light-primary shadow-lg hover:bg-orange-500 transition-all duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium "
+                  className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full shadow-lg  duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium  before:ease relative  overflow-hidden border border-orange-400 bg-light-primary hover:bg-light-secondary transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12  before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#f2916a40] hover:before:-translate-x-[30rem]"
                   href={cv}
                   download="CV_SIWAKORN"
                   target="_blank"
@@ -122,7 +122,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                   </label> CV
                 </a>
                 <a
-                  className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full bg-light-primary shadow-lg hover:bg-orange-500 transition-all duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium "
+                  className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full shadow-lg  duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium  before:ease relative  overflow-hidden border border-orange-400 bg-light-primary hover:bg-light-secondary transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12  before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#f2916a40] hover:before:-translate-x-[30rem]"
                   href={resume}
                   download="Resume_SIWAKORN"
 
