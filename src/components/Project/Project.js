@@ -42,7 +42,7 @@ const Project = ({ changeLanguage, darkMode }) => {
                   <div className="absolute z-50 inset-0 flex flex-col items-center justify-center p-4 bg-black bg-opacity-90 text-white font-medium rounded-lg opacity-0 transform transition duration-500 hover:opacity-100 hover:scale-105">
                     <h4 className="text-md lg:text-lg font-bold  text-light-secondary my-1">{project.title}</h4>
                     <hr className="w-full" />
-                    <p className="text-base sm:text-sm xl:text-[13px]">{project.description}</p>
+                    <p className="text-[13px] p-2 sm:text-sm xl:text-[13px]">{project.description}</p>
                     <a className=" duration-200 bg-light-secondary hover:bg-[#ffffff19] border hover:border-light-secondary font-semibold text-sm py-1 px-2 rounded-lg " href={project.link}>Github</a>
                   </div>
                   {project.tool && (
