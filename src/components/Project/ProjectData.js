@@ -52,7 +52,7 @@ const projectsdata = [
         titleKey: "port3",
         image: shoe,
         descriptionKey: "port_des3",
-        link: "https://github.com/Ksis123/Sports-Shoes-E-commerce.git",
+        link: "https://github.com/Nok012/Sell-Sports-Shoes-WebApp.git",
         tool:[mongodb,exprees,angular, node, css]
 
     },
