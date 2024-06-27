@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
-import profileLight from "../../img/2.jpg";
+import profileLight from "../../img/B6311223_grey_full.jpg";
 import profileDark from "../../img/4.jpg";
 
 const Sidebar = ({ changeLanguage, darkMode }) => {
