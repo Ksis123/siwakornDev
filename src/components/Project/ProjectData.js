@@ -31,12 +31,13 @@ import sqlite from "../../SVG/icon/sqlite-svgrepo-com.svg";
 
 const projectsdata = [
     {
-        time: "port_time1",
-        titleKey: "port1",
-        image: impatient,
-        descriptionKey: "port_des1",
-        link: "https://github.com/sut65/team12.git",
-        tool:[go,reacts,ts, node, sqlite]
+        time: "port_time4",
+        titleKey: "port4",
+        image: fair,
+        descriptionKey: "port_des4",
+        link: "/",
+        tool: [php, HTML, css, bootrap, sqlserver]
+
     },
     {
         time: "port_time2",
@@ -44,25 +45,7 @@ const projectsdata = [
         image: fyt,
         descriptionKey: "port_des2",
         link: "https://github.com/Ksis123/Fideyourtracks.git",
-        tool:[mongodb,exprees,reacts, node, tailwind]
-
-    },
-    {
-        time: "port_time3",
-        titleKey: "port3",
-        image: shoe,
-        descriptionKey: "port_des3",
-        link: "https://github.com/Nok012/Sell-Sports-Shoes-WebApp.git",
-        tool:[mongodb,exprees,angular, node, css]
-
-    },
-    {
-        time: "port_time4",
-        titleKey: "port4",
-        image: fair,
-        descriptionKey: "port_des4",
-        link: "/",
-        tool:[php,HTML,css, bootrap, sqlserver]
+        tool: [mongodb, exprees, reacts, node, tailwind]
 
     },
     {
@@ -71,9 +54,29 @@ const projectsdata = [
         image: nft,
         descriptionKey: "port_des5",
         link: "https://github.com/Ksis123/fideyourtracks_Marketplace.git",
-        tool:[solidity,next,tailwind, ts]
+        tool: [solidity, next, tailwind, ts]
 
     },
+
+    {
+        time: "port_time3",
+        titleKey: "port3",
+        image: shoe,
+        descriptionKey: "port_des3",
+        link: "https://github.com/Nok012/Sell-Sports-Shoes-WebApp.git",
+        tool: [mongodb, exprees, angular, node, css]
+
+    },
+    {
+        time: "port_time1",
+        titleKey: "port1",
+        image: impatient,
+        descriptionKey: "port_des1",
+        link: "https://github.com/sut65/team12.git",
+        tool: [go, reacts, ts, node, sqlite]
+    },
+
+
 ];
 
 export default projectsdata;

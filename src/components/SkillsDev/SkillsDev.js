@@ -43,12 +43,14 @@ const SkillsDev = ({ changeLanguage, darkMode }) => {
 
 
   return (
+    
     <div className="justify-center">
       <div className="px-4 sm:px-6">
         <h3 className="text-lg md:text-xl lg:text-2xl leading-4 font-bold ">
           {t('skill')}
         </h3>
       </div>
+
       <div className=" mt-3 mb-6 lg:mx-8 ">
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 xl:grid-cols-6 gap-x-4 gap-y-4 grid-flow-row">
           <div className="flex flex-col justify-center items-center ">
