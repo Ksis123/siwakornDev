@@ -161,7 +161,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                     <dt className="text-sm font-medium md:text-base text-light-primary">
                       {t('p1')}
                     </dt>
-                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
+                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2 blur">
                       {t('a1')}
                     </dd>
                   </div>
@@ -187,7 +187,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                     <dt className="text-sm font-medium md:text-base text-light-primary">
                       {t('p4')}
                     </dt>
-                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2">
+                    <dd className="mt-1 text-sm md:text-base sm:mt-0 sm:col-span-2 blur">
                       (+66) 65-731-3223
                     </dd>
                   </div>
