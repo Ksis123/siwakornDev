@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Switcher from "./DarkMode/Switch";
 import Sidebar from "./Sidebar/Sidebar";
-import Footer from "./Footer/footer";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
 
@@ -118,9 +117,7 @@ const Layout = ({ children }) => {
           })}
         </main>
       </header>
-      <div className="p-3 px-20">
-        <Footer />
-      </div>
+
     </div>
   );
 };

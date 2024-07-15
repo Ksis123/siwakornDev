@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 
 import fileGraduate from "../../static/media/Graduate_Certificate.pdf";
-import resume from "../../static/media/Resume_Siwakorn_0657313223.pdf";
-import cv from "../../static/media/CV_Siwakorn_0657313223.pdf";
+// import resume from "../../static/media/Resume_Siwakorn_0657313223.pdf";
+// import cv from "../../static/media/CV_Siwakorn_0657313223.pdf";
 import MultiTyping from "./MultiTyping";
 
 
@@ -43,7 +43,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
             </svg>
             {t('tabmenu1')}
           </button>
-          <button
+          {/* <button
             onClick={() => handleTabClick("personal")}
             className={`text-sm xl:text-lg ${activeTab === "personal"
               ? "bg-[#f78851] duration-500 text-white"
@@ -65,7 +65,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
               />
             </svg>
             {t('tabmenu2')}
-          </button>
+          </button> */}
 
           <button
             onClick={() => handleTabClick("education")}
@@ -110,7 +110,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                 {t('welcome_message_final')}
               </p>
               <div className="flex  w-full items-center justify-center gap-4">
-                <a
+                {/* <a
                   className="text-white text-center text-[12px] sm:text-md md:text-base rounded-full shadow-lg  duration-300 w-fit sm:px-5 sm:py-3 px-3 py-1 font-medium  before:ease relative  overflow-hidden border border-orange-400 bg-light-primary hover:bg-light-secondary transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12  before:bg-white before:opacity-10 before:duration-700 hover:shadow-[#f2916a40] hover:before:-translate-x-[30rem]"
                   href={cv}
                   download="CV_SIWAKORN"
@@ -132,7 +132,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
                   <label className="fixed invisible sm:relative  sm:visible cursor-pointer">
                     {t('download')}
                   </label> Resume
-                </a>
+                </a> */}
 
                 <Link
                   to="/projects"
@@ -144,7 +144,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
             </div>
           </>
         )}
-        {activeTab === "personal" && (
+        {/* {activeTab === "personal" && (
           <>
             <div className="shadow  overflow-hidden  rounded-lg ">
               <div className="px-4 py-5 sm:px-6">
@@ -213,7 +213,7 @@ const AboutMe = ({ changeLanguage, darkMode }) => {
               </div>
             </div>
           </>
-        )}
+        )} */}
 
         {activeTab === "education" && (
           <>
