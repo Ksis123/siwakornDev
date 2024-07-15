@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import certifies from "../../static/media/Internship_Certification_Siwakorn.pdf";
+// import certifies from "../../static/media/Internship_Certification_Siwakorn.pdf";
 const Experience = (changeLanguage) => {
   const { t } = useTranslation();
 
@@ -40,14 +40,14 @@ const Experience = (changeLanguage) => {
                 {t("lo1")}
                 <hr /> <br />
                 {t("des1")} <br />
-                <a
+                {/* <a
                   className="px-2 rounded-[10px] w-1/2 border-2 sm:w-[100px] justify-center bg-light-primary duration-500 hover:border-dark-primary hover:bg-[#ffffff2f] hover:text-dark-secondary"
                   href={certifies}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i className="fa-solid fa-file-pdf"></i> Cooperative
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

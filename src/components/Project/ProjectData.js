@@ -44,7 +44,7 @@ const projectsdata = [
         titleKey: "port2",
         image: fyt,
         descriptionKey: "port_des2",
-        link: "https://github.com/Ksis123/Fideyourtracks.git",
+        link: "/",
         tool: [mongodb, exprees, reacts, node, tailwind]
 
     },
@@ -53,7 +53,7 @@ const projectsdata = [
         titleKey: "port5",
         image: nft,
         descriptionKey: "port_des5",
-        link: "https://github.com/Ksis123/fideyourtracks_Marketplace.git",
+        link: "/",
         tool: [solidity, next, tailwind, ts]
 
     },
@@ -63,7 +63,7 @@ const projectsdata = [
         titleKey: "port3",
         image: shoe,
         descriptionKey: "port_des3",
-        link: "https://github.com/Nok012/Sell-Sports-Shoes-WebApp.git",
+        link: "/",
         tool: [mongodb, exprees, angular, node, css]
 
     },
@@ -72,7 +72,7 @@ const projectsdata = [
         titleKey: "port1",
         image: impatient,
         descriptionKey: "port_des1",
-        link: "https://github.com/sut65/team12.git",
+        link: "/",
         tool: [go, reacts, ts, node, sqlite]
     },
 
@@ -80,3 +80,9 @@ const projectsdata = [
 ];
 
 export default projectsdata;
+
+
+// https://github.com/Ksis123/Fideyourtracks.git
+// https://github.com/Ksis123/fideyourtracks_Marketplace.git
+// https://github.com/Nok012/Sell-Sports-Shoes-WebApp.git
+// https://github.com/sut65/team12.git

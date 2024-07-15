@@ -63,7 +63,8 @@ const Project = ({ changeLanguage, darkMode }) => {
               </div>
             ))}
           </div>
-        </div>      </div>
+        </div>      
+        </div>
     </div>
   );
 };
