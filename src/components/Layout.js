@@ -3,6 +3,7 @@ import Switcher from "./DarkMode/Switch";
 import Sidebar from "./Sidebar/Sidebar";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
+import Footer from "./Footer/footer";
 
 const Layout = ({ children }) => {
   const [darkMode, setDarkMode] = useState(false);
@@ -117,6 +118,7 @@ const Layout = ({ children }) => {
           })}
         </main>
       </header>
+      <Footer/>
 
     </div>
   );

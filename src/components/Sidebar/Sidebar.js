@@ -171,7 +171,7 @@ const Sidebar = ({ changeLanguage, darkMode }) => {
               © {new Date().getFullYear()} SiwakornDev.
             </p>
           </h5>
-          {/* <div>
+          <div>
             <ul className="flex flex-wrap items-center gap-3 sm:flex-nowrap md:gap-3">
               <li>
                 <a
@@ -243,7 +243,7 @@ const Sidebar = ({ changeLanguage, darkMode }) => {
                 </a>
               </li>
             </ul>
-          </div> */}
+          </div>
         </div>
       </div>
     </nav>
